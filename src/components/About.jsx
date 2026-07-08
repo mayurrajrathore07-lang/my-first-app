@@ -1,30 +1,35 @@
+import React from "react";
+import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
-import profileImage from '../assets/profile.jpg';
+import profileImage from "../assets/profile.jpg";
+
 function About() {
   return (
-    <section className="about">
-
-      <motion.div
-        initial={{ x: -150, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
-      >
-        <img src={profileImage} alt="Profile" />
-      </motion.div>
-
-      <motion.div
-        initial={{ x: 150, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
-        
-      >
-        <h2>About Me</h2>
-        <p>Your content...</p>
-      </motion.div>
-
-    </section>
+    <div className="border-b border-neutral-900 pb-4">
+      <h2 className="my-20 text-center text-4xl">
+        <span >About Me</span>
+      </h2>
+      <div className="flex flex-wrap">
+        <motion.div 
+        whileInView={{opacity:1, x:0}}
+        transition={{duration: 0.5}}
+        initial={{opacity:0, x:-100}}
+        className="w-full lg:w-1/2 lg:p-8">
+          <div className="flex items-center justify-center">
+            <img className="rounded-2xl" src={profileImage} alt="aa" />
+          </div>
+        </motion.div>
+        <motion.div 
+        whileInView={{opacity:1, x:0}}
+        transition={{duration: 0.5}}
+        initial={{opacity:0, x:100}}
+        className="w-full lg:w-1/2">
+            <div className="flex justify-center lg:justify-start">
+              <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+            </div>
+          </motion.div>
+      </div>
+    </div>
   );
 }
 
