@@ -22,9 +22,9 @@ const iconVariants = (duration) => ({
 
 
 function TechStack() {
-  const iconStack = [FaHtml5, FaCss3, IoLogoJavascript, FaReact,];
-  const techStackColors=["text-orange-700", "text-cyan-600", "text-yellow-500", "text-cyan-700","text-yellow-500", "text-blue-600", "text-cyan-500", "text-blue-700"]
-  const iconNames =["HTML","CSS","JS","REACT","TAILWIND",]
+  const iconStack = [FaHtml5, FaCss3, IoLogoJavascript, FaReact, FaTailwind];
+  const techStackColors=["text-orange-700", "text-cyan-600", "text-yellow-500", "text-cyan-700","text-blue-600"]
+  const iconNames =["HTML","CSS","JS","REACT","TAILWIND"]
   return (
     <div className="border-b border-neutral-800 pb-24">
       <motion.h2 
