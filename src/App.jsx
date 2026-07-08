@@ -8,9 +8,14 @@ function Center() {
   return <div className="center-box"><h2>hy</h2></div>;
 }
 
+function link(){
+  return <div className='link-list'></div>
+}
+
 function App() {
   return (
     <div>
+      <link />
       <Header />
       <Center />
       <h1>Hello, World!</h1>
