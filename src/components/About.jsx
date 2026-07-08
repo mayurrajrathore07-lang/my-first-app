@@ -1,15 +1,31 @@
+import { motion } from "framer-motion";
 import profileImage from '../assets/profile.jpg';
-
-const About = () => {
+function About() {
   return (
-    <section id="about" className="py-16">
-      <h2 className="mb-4 text-2xl font-semibold text-white">About Me</h2>
-      <img src={profileImage} alt="Profile" className="mb-4 h-32 w-32 rounded-full object-cover" />
-      <p className="max-w-2xl text-neutral-300">
-        I am passionate about creating polished web experiences and learning new frontend tools.
-      </p>
+    <section className="about">
+
+      <motion.div
+        initial={{ x: -150, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+      >
+        <img src={profileImage} alt="Profile" />
+      </motion.div>
+
+      <motion.div
+        initial={{ x: 150, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        
+      >
+        <h2>About Me</h2>
+        <p>Your content...</p>
+      </motion.div>
+
     </section>
   );
-};
+}
 
 export default About;
