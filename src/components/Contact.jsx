@@ -1,8 +1,12 @@
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
 
+
+
+
 const Contact = () => {
   return (
+    
     <section id="contact" className="py-16">
       <h2 className="mb-4 text-2xl font-bold text-white">Contact</h2>
     
