@@ -6,7 +6,7 @@ import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 
 
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
     initial: {y:-10},
