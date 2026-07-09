@@ -19,16 +19,16 @@ const Contact = () => {
       <ul
         style={{
           display: "flex",
-          gap: "25px",
+          gap: "40px",
           listStyle: "none",
           padding: 0,
           margin: 0,
-          alignItems:"center"
+          alignItems:"center",
+          justifyContent:"center"
         }}
       >
 
 
-        
         <li>
           <a
             href="https://github.com/yourusername"
