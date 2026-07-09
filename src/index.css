@@ -1,7 +1,6 @@
-/* Note: Tailwind `@tailwind` directives removed to avoid editor/linter errors in this environment.
-  If your build pipeline uses PostCSS/Tailwind, restore these lines:
-  @tailwind base; @tailwind components; @tailwind utilities;
-*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
