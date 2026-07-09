@@ -8,7 +8,7 @@ const Projects = () => {
       <h2 className="mb-8 text-4xl font-semibold text-center text-white">Frontend Projects</h2>
       <p className="mx-auto max-w-2xl text-center text-neutral-400">A selection of projects built with React, Tailwind CSS and other modern tools.</p>
 
-      {/* Main project block styled like the screenshot (left text, right image) */}
+     
       <div className="mt-12 space-y-10">
         <div className="flex flex-col items-stretch gap-6 lg:flex-row lg:items-start">
           <motion.div

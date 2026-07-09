@@ -21,7 +21,7 @@ const Experience = () => {
             <p className="rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">
               2026 - Present
             </p>
-          </div>   
+          </div>  
         </motion.div>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
