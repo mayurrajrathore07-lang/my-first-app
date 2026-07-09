@@ -9,48 +9,131 @@ const Projects = () => {
       <h2 className="mb-8 text-4xl font-semibold text-center text-white">Frontend Projects</h2>
       <p className="mx-auto max-w-2xl text-center text-neutral-400">A selection of projects built with React, Tailwind CSS and other modern tools.</p>
 
+      {/* Main project block styled like the screenshot (left text, right image) */}
       <div className="mt-12 space-y-10">
-        {[1, 2, 3].map((_, i) => (
-          <div key={i} className="flex flex-col items-stretch gap-6 lg:flex-row lg:items-start">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              initial={{ opacity: 0, x: -100 }}
-              className="w-full lg:w-1/2"
-            >
-              <div className="px-2 lg:px-6">
-                <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Streaming Clone</p>
-                <h3 className="mt-6 text-2xl font-semibold text-white">A Netflix movie streaming clone</h3>
-                <p className="mt-3 text-neutral-300">A Netflix movie streaming clone built using HTML/CSS/JS, React/Vite, Tailwind CSS and Firebase (for db/authentication). API used from The Movie DB. Hosted using Netlify.</p>
+        <div className="flex flex-col items-stretch gap-6 lg:flex-row lg:items-start">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0, x: -100 }}
+            className="w-full lg:w-1/2"
+          >
+            <div className="px-2 lg:px-6">
+              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Streaming Clone</p>
+              <h3 className="mt-6 text-2xl font-semibold text-white">A Netflix movie streaming clone</h3>
+              <p className="mt-3 text-neutral-300">A Netflix movie streaming clone built using HTML/CSS/JS, React/Vite, Tailwind CSS and Firebase (for db/authentication). API used from The Movie DB. Hosted using Netlify.</p>
 
-                <div className="mt-4 flex flex-wrap gap-2">
-                  <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
-                  <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">HTML</span>
-                  <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">CSS</span>
-                  <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">JavaScript</span>
-                  <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-sky-300">Tailwind CSS</span>
-                  <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-emerald-300">Firebase</span>
-                </div>
-
-                <div className="mt-6 flex flex-wrap gap-3">
-                  <a href="#" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
-                  <a href="#" className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-800">View Code</a>
-                </div>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">HTML</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">CSS</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">JavaScript</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-sky-300">Tailwind CSS</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-emerald-300">Firebase</span>
               </div>
-            </motion.div>
 
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
-              initial={{ opacity: 0, x: 100 }}
-              className="w-full lg:w-1/2"
-            >
-              <div className="mx-auto w-full max-w-2xl overflow-hidden rounded-lg border border-neutral-800 bg-neutral-900/40 shadow-lg">
-                <img src={hhh} alt="project screenshot" className="w-full object-cover" />
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a href="#" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
+                <a href="#" className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-800">View Code</a>
               </div>
-            </motion.div>
-          </div>
-        ))}
+            </div>
+          </motion.div>
+
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0, x: 100 }}
+            className="w-full lg:w-1/2"
+          >
+            <div className="mx-auto w-full max-w-2xl overflow-hidden rounded-lg border border-neutral-800 bg-neutral-900/40 shadow-lg">
+              <img src={hhh} alt="project screenshot" className="w-full object-cover" />
+            </div>
+          </motion.div>
+        </div>
+
+<div className="mt-12 space-y-10">
+        <div className="flex flex-col items-stretch gap-6 lg:flex-row lg:items-start">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0, x: -100 }}
+            className="w-full lg:w-1/2"
+          >
+            <div className="px-2 lg:px-6">
+              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Streaming Clone</p>
+              <h3 className="mt-6 text-2xl font-semibold text-white">A Netflix movie streaming clone</h3>
+              <p className="mt-3 text-neutral-300">A Netflix movie streaming clone built using HTML/CSS/JS, React/Vite, Tailwind CSS and Firebase (for db/authentication). API used from The Movie DB. Hosted using Netlify.</p>
+
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">HTML</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">CSS</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">JavaScript</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-sky-300">Tailwind CSS</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-emerald-300">Firebase</span>
+              </div>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a href="#" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
+                <a href="#" className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-800">View Code</a>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0, x: 100 }}
+            className="w-full lg:w-1/2"
+          >
+            <div className="mx-auto w-full max-w-2xl overflow-hidden rounded-lg border border-neutral-800 bg-neutral-900/40 shadow-lg">
+              <img src={hhh} alt="project screenshot" className="w-full object-cover" />
+            </div>
+          </motion.div>
+        </div>
+        <div className="mt-12 space-y-10">
+        <div className="flex flex-col items-stretch gap-6 lg:flex-row lg:items-start">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0, x: -100 }}
+            className="w-full lg:w-1/2"
+          >
+            <div className="px-2 lg:px-6">
+              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Streaming Clone</p>
+              <h3 className="mt-6 text-2xl font-semibold text-white">A Netflix movie streaming clone</h3>
+              <p className="mt-3 text-neutral-300">A Netflix movie streaming clone built using HTML/CSS/JS, React/Vite, Tailwind CSS and Firebase (for db/authentication). API used from The Movie DB. Hosted using Netlify.</p>
+
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">HTML</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">CSS</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">JavaScript</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-sky-300">Tailwind CSS</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-emerald-300">Firebase</span>
+              </div>
+
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a href="#" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
+                <a href="#" className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-800">View Code</a>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0, x: 100 }}
+            className="w-full lg:w-1/2"
+          >
+            <div className="mx-auto w-full max-w-2xl overflow-hidden rounded-lg border border-neutral-800 bg-neutral-900/40 shadow-lg">
+              <img src={hhh} alt="project screenshot" className="w-full object-cover" />
+            </div>
+          </motion.div>
+        </div>
+
+        
+     
       </div>
 
     </section>
