@@ -1,10 +1,11 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaAlignJustify } from "react-icons/fa";
 
 const Contact = () => {
   const iconStyle = {
     fontSize: "50px",
-    color: "white",
+    color: "skyblue",
     transition: "0.3s",
+
   };
 
   return (
@@ -22,6 +23,7 @@ const Contact = () => {
           listStyle: "none",
           padding: 0,
           margin: 0,
+          alignItems:"center"
         }}
       >
         <li>
@@ -54,15 +56,10 @@ const Contact = () => {
           </a>
         </li>
 
-        <li>
-          <a
-            href="https://twitter.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <li> <a
+            href="https://twitter.com/yourusername"  target="_blank"  rel="noopener noreferrer" >
             <FaTwitter style={iconStyle} />
-          </a>
-        </li>
+          </a> </li>
       </ul>
     </section>
   );
