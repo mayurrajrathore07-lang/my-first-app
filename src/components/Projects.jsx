@@ -1,44 +1,74 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ABOUT_TEXT3 } from "../constants";
+import hhh from "../assets/hhh.png";
 
 const Projects = () => {
   return (
     <section id="projects" className="py-16">
-      <h2 className="mb-4 text-2xl font-semibold text-white">Projects</h2>
-      <p className="text-neutral-300">A few sample React projects will go here.</p>
+      <h2 className="mb-8 text-4xl font-semibold text-center text-white">Frontend Projects</h2>
+      <p className="mx-auto max-w-2xl text-center text-neutral-400">A selection of projects built with React, Tailwind CSS and other modern tools.</p>
 
- <div className="mt-10 flex flex-wrap items-start gap-8">
-        <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          initial={{ opacity: 0, x: -100 }}
-          className="w-full lg:w-[30%] lg:p-4"
-        >
-          <div className="flex justify-center lg:justify-start lg:pt-2">
-            <p className="rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">
-              Nexora
-            </p>
-          </div>   
-        </motion.div>
-        <motion.div
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          initial={{ opacity: 0, x: 100 }}
-          className="w-full lg:w-[65%]"
-        >
-          <div className="rounded-xl border border-neutral-800 bg-neutral-900/60 p-6 shadow-lg">
-            <h3 className="text-xl font-semibold text-white">writing soon..</h3>
-            <p className="mt-3 max-w-xl text-neutral-300">{ABOUT_TEXT3}</p>
-          </div>
-        </motion.div>
-      </div> 
+      {/* Main project block styled like the screenshot (left text, right image) */}
+      <div className="mt-12 space-y-10">
+        <div className="flex flex-col items-stretch gap-6 lg:flex-row lg:items-start">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0, x: -100 }}
+            className="w-full lg:w-1/2"
+          >
+            <div className="px-2 lg:px-6">
+              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Streaming Clone</p>
+              <h3 className="mt-6 text-2xl font-semibold text-white">A Netflix movie streaming clone</h3>
+              <p className="mt-3 text-neutral-300">A Netflix movie streaming clone built using HTML/CSS/JS, React/Vite, Tailwind CSS and Firebase (for db/authentication). API used from The Movie DB. Hosted using Netlify.</p>
 
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">HTML</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">CSS</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">JavaScript</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-sky-300">Tailwind CSS</span>
+                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-emerald-300">Firebase</span>
+              </div>
 
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a href="#" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
+                <a href="#" className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-800">View Code</a>
+              </div>
+            </div>
+          </motion.div>
 
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0, x: 100 }}
+            className="w-full lg:w-1/2"
+          >
+            <div className="mx-auto w-full max-w-2xl overflow-hidden rounded-lg border border-neutral-800 bg-neutral-900/40 shadow-lg">
+              <img src={hhh} alt="project screenshot" className="w-full object-cover" />
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Smaller project entries reuse the same motion structure but simpler */}
+        <div className="grid gap-6 lg:grid-cols-2">
+          {["Chat App","Portfolio","Todo App","E-commerce"].map((t, i) => (
+            <motion.div
+              key={t}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.45, delay: i * 0.05 }}
+              initial={{ opacity: 0, y: 20 }}
+              className="rounded-xl border border-neutral-800 bg-neutral-900/60 p-6 shadow-lg"
+            >
+              <h4 className="text-lg font-semibold text-white">{t}</h4>
+              <p className="mt-2 text-neutral-300">Short description coming soon...</p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
 
     </section>
-    
   );
 };
 
