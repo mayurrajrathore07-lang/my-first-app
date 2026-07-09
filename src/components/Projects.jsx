@@ -20,7 +20,7 @@ const Projects = () => {
             <div className="px-2 lg:px-6">
               <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Streaming Clone</p>
               <h3 className="mt-6 text-2xl font-semibold text-white">A Netflix movie streaming clone</h3>
-              <p className="mt-3 text-neutral-300">A Netflix movie streaming clone built using HTML/CSS/JS, React/Vite, Tailwind CSS and Firebase (for db/authentication). API used from The Movie DB. Hosted using Netlify.</p>
+              <p className="mt-3 text-neutral-300">A Netflix movie streaming clone built using HTML/CSS/JS </p>
 
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
