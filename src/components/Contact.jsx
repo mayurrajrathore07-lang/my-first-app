@@ -10,7 +10,7 @@ const Contact = () => {
       
       <ul className="social-icons">
   <li>
-    <a href="https://github.com" target="_blank" rel="noopener noreferrer" mb-4>
+    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
       <FaGithub />
     </a>
   </li>
