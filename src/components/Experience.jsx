@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ABOUT_TEXT2, ABOUT_TEXT3 } from "../constants";
 
+
 const Experience = () => {
   return (
     <section className="py-16">
