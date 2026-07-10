@@ -19,8 +19,8 @@ const Projects = () => {
           >
             <div className="px-2 lg:px-6">
               <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Streaming Clone</p>
-              <h3 className="mt-6 text-2xl font-semibold text-white">A Netflix movie streaming clone</h3>
-              <p className="mt-3 text-neutral-300">A Netflix movie streaming clone built using HTML/CSS/JS </p>
+              <h3 className="mt-6 text-2xl font-semibold text-white">A Amazon clone </h3>
+              <p className="mt-3 text-neutral-300">A amazo clone built using HTML/CSS/JS </p>
 
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
@@ -28,7 +28,7 @@ const Projects = () => {
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">CSS</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">JavaScript</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-sky-300">Tailwind CSS</span>
-                <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-emerald-300">Firebase</span>
+  
               </div>
 
               <div className="mt-6 flex flex-wrap gap-3">
@@ -99,8 +99,8 @@ const Projects = () => {
           >
             <div className="px-2 lg:px-6">
               <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">E-commerce UI</p>
-              <h3 className="mt-6 text-2xl font-semibold text-white">Modern shopping experience</h3>
-              <p className="mt-3 text-neutral-300">A product catalog and checkout interface created using React and Tailwind CSS for a clean, modern e-commerce feel.</p>
+              <h3 className="mt-6 text-2xl font-semibold text-white">a nexora website based on software services</h3>
+              <p className="mt-3 text-neutral-300">a nexora is a software service based platform which provide different type of services like web development. design ,etc</p>
 
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
