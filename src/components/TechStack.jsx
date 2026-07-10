@@ -5,7 +5,11 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 import { motion } from "framer-motion";
+
 
 const iconVariants = (duration) => ({
     initial: {y:-10},
@@ -20,9 +24,9 @@ const iconVariants = (duration) => ({
 }})
 
 function TechStack() {
-  const iconStack = [FaHtml5, FaCss3, IoLogoJavascript, FaReact, SiTailwindcss];
+  const iconStack = [FaHtml5, FaCss3, IoLogoJavascript, FaReact, SiTailwindcss, FaNodeJs, SiMongodb, SiNextdotjs,SiExpress ];
   const techStackColors=["text-orange-700", "text-cyan-600", "text-yellow-500", "text-cyan-700","text-blue-500"]
-  const iconNames =["HTML","CSS","JS","REACT","TAILWIND", "NodeJs"]
+  const iconNames =["HTML","CSS","JS","REACT","TAILWIND", "NodeJs","Mongodb", "NextJs","Express"]
   return (
     <div className="border-b border-neutral-800 pb-24">
       <motion.h2 
