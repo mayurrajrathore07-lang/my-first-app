@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import imaget4 from "../assets/imaget4.jpg";
+import hhh from "../assets/hhh.png"
+
 
 const Projects = () => {
   return (
