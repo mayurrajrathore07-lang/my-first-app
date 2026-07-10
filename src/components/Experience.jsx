@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ABOUT_TEXT2 } from "../constants";
-
+import { ABOUT_TEXT2, ABOUT_TEXT3 } from "../constants";
 
 const Experience = () => {
   return (
@@ -20,7 +19,7 @@ const Experience = () => {
         >
           <div className="flex justify-center lg:justify-start lg:pt-2">
             <p className="rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">
-              2026 - Present
+              2026.present
             </p>
           </div>  
         </motion.div>
@@ -32,6 +31,8 @@ const Experience = () => {
         >
           <div className="rounded-xl border border-neutral-800 bg-neutral-900/60 p-6 shadow-lg">
             <h3 className="text-xl font-bold text-white">ABCD</h3>
+            <h4 className="text-x1 font-bold text-white">EFGH </h4>
+            <h5 className="text-x1 font-bold text-white">{ABOUT_TEXT3}</h5>
             <p className="mt-3 max-w-xl text-neutral-300">{ABOUT_TEXT2}</p>
           </div>
         </motion.div>
