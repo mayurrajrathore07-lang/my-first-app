@@ -10,6 +10,7 @@ const Experience = () => {
       <p className="text-neutral-300">
         Building responsive web apps and learning modern frontend practices.
       </p>
+      <p className="text-natural-300"> with the knowledge og the languages like html,css,js,tailwind css</p>
 
      <div className="mt-10 flex flex-wrap items-start gap-8">
         <motion.div
