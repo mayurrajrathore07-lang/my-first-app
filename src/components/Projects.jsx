@@ -1,14 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import imaget4 from "../assets/imaget4.jpg";
-import hhh from "../assets/hhh.png"
 
 
 const Projects = () => {
   return (
     <section id="projects" className="py-16">
       <h2 className="mb-8 text-4xl font-semibold text-center text-white">Frontend Projects</h2>
-      <p className="mx-auto max-w-2xl text-center text-neutral-400">A selection of projects built with React, Tailwind CSS and other modern tools.</p>
+      <p className="mx-auto max-w-2xl text-center text-neutral-400">All The Projects built with React, Tailwind CSS and other modern tools. this project included the learn project and tasj project of thr internship period</p>
 
      
       <div className="mt-12 space-y-10">
