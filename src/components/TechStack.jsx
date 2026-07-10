@@ -5,8 +5,6 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-
-
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -20,7 +18,6 @@ const iconVariants = (duration) => ({
        repeatType: "reverse"
     }
 }})
-
 
 function TechStack() {
   const iconStack = [FaHtml5, FaCss3, IoLogoJavascript, FaReact, SiTailwindcss];
