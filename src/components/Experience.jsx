@@ -33,8 +33,6 @@ const Experience = () => {
           <div className="rounded-xl border border-neutral-800 bg-neutral-900/60 p-6 shadow-lg">
             <h3 className="text-xl font-bold text-white">WDCS</h3>
             <h4 className="rext-x1 font-bold text-white">codezeros</h4>
-       
-          
             <p className="mt-3 max-w-xl text-neutral-300">{ABOUT_TEXT2}</p>
           </div>
         </motion.div>
