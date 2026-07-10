@@ -4,6 +4,7 @@ import { FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 
 import { motion } from "framer-motion";
@@ -24,7 +25,7 @@ const iconVariants = (duration) => ({
 function TechStack() {
   const iconStack = [FaHtml5, FaCss3, IoLogoJavascript, FaReact, SiTailwindcss];
   const techStackColors=["text-orange-700", "text-cyan-600", "text-yellow-500", "text-cyan-700","text-blue-500"]
-  const iconNames =["HTML","CSS","JS","REACT","TAILWIND"]
+  const iconNames =["HTML","CSS","JS","REACT","TAILWIND", "NodeJs"]
   return (
     <div className="border-b border-neutral-800 pb-24">
       <motion.h2 
