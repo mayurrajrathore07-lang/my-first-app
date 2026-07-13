@@ -48,7 +48,7 @@ const Experience = () => {
           >
             <div className="rounded-2xl border border-neutral-800 bg-gradient-to-br from-neutral-900 via-neutral-900 to-neutral-800/80 p-6 shadow-xl shadow-black/30">
               <h4 className="text-xl font-semibold text-white">
-                Frontend Developer Journey
+                Frontend Developer 
               </h4>
               <p className="mt-3 max-w-2xl text-base leading-7 text-neutral-300">
                 {ABOUT_TEXT2}
