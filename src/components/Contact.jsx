@@ -6,6 +6,7 @@ const Contact = () => {
     color: "skyblue",
     transition: "0.3s",
 
+
   };
 
   return (
