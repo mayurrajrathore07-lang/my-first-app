@@ -28,7 +28,6 @@ const Projects = () => {
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">CSS</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">JavaScript</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-sky-300">Tailwind CSS</span>
-  
               </div>
 
               <div className="mt-6 flex flex-wrap gap-3">
