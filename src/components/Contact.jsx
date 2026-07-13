@@ -14,13 +14,14 @@ const Contact = () => {
       <div className="contact-card">
         <p className="contact-eyebrow">Let&apos;s connect</p>
         <h2>Contact</h2>
+        <p>Here It Is</p>
 
         <p className="contact-text">
           I&apos;m always open to new ideas, collaborations, and exciting projects.
         </p>
 
         <a href="mailto:hello@yourname.com" className="contact-email">
-          hello@yourname.com
+         ......@gmail.com
         </a>
 
         <ul className="social-list">
