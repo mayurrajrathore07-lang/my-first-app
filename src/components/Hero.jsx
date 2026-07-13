@@ -27,7 +27,7 @@ const Hero = () => {
               See projects
             </a>
             <a href="#contact" className="text-sm font-medium text-neutral-100/80 transition hover:text-white">
-              Let's talk
+              Let's talk 
             </a>
           </div>
         </motion.div>

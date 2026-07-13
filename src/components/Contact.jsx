@@ -5,6 +5,7 @@ const Contact = () => {
     fontSize: "50px",
     color: "skyblue",
     transition: "0.3s",
+    padding: "20px"
 
 
   };
