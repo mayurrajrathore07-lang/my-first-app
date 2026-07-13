@@ -20,7 +20,7 @@ const Experience = () => {
 
           <p className="max-w-2xl text-base leading-7 text-neutral-300">
             I enjoy creating responsive, clean, and user-friendly web apps while
-            continuously improving my frontend skills.
+            continuously improving my frontend and backend skills.
           </p>
         </div>
 
