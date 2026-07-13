@@ -5,8 +5,7 @@ const ResumePage = () => {
         <p className="mb-3 text-sm uppercase tracking-[0.3em] text-cyan-300">Resume</p>
         <h1 className="mb-6 text-4xl font-semibold text-white">My Resume</h1>
         <p className="mb-6 text-lg leading-8 text-neutral-300">
-          This is a dedicated resume page for your portfolio. You can customize it with your experience,
-          education, skills, and downloadable CV later.
+         My Name Is Mayurraj Singh Rathoe  This is a my resume page . here all the my skill and education is mention .
         </p>
 
         <div className="grid gap-6 md:grid-cols-2">
