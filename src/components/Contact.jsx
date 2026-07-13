@@ -5,14 +5,14 @@ const Contact = () => {
     fontSize: "50px",
     color: "skyblue",
     transition: "0.3s",
-    padding: "20px"
+    
 
 
   };
 
   return (
     <section id="contact" className="py-16">
-      <h2 className="mb-4 text-2xl font-bold text-white">Contact</h2>
+      <h2 className="mb-4 text-2xl font-bold text-white" margin-bootom-20px>Contact</h2>
 
       <p className="text-neutral-300 mb-6">
         You can reach me through email or LinkedIn.
