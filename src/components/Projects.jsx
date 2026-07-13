@@ -44,7 +44,7 @@ const Projects = () => {
             className="w-full lg:w-1/2"
           >
             <div className="mx-auto w-full max-w-2xl overflow-hidden rounded-lg border border-neutral-800 bg-neutral-900/40 shadow-lg">
-              <img src={imaget4} alt="project screenshot" className="w-full object-cover" />
+              <img src={imaget4} alt="project" className="w-full object-cover" />
             </div>
           </motion.div>
         </div>

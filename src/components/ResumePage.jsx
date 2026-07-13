@@ -16,7 +16,7 @@ const ResumePage = () => {
               <li>React and Tailwind projects</li>
               <li>UI/UX focused portfolio work</li>
             </ul>
-          </div>
+    </div>
           <div>
             <h2 className="mb-3 text-xl font-semibold text-cyan-300">Skills</h2>
             <ul className="list-disc space-y-2 pl-5 text-neutral-300">

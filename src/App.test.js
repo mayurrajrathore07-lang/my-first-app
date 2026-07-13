@@ -7,3 +7,10 @@ test('renders the resume page when navigating to /resume', () => {
 
   expect(screen.getByText(/my resume/i)).toBeInTheDocument();
 });
+
+test('renders the experience section anchor for the navbar link', () => {
+  window.history.pushState({}, '', '/');
+  render(<App />);
+
+  expect(document.getElementById('experience')).toBeInTheDocument();
+});
