@@ -28,7 +28,7 @@ function TechStack() {
   const techStackColors=["text-orange-700", "text-cyan-600", "text-yellow-500", "text-cyan-700","text-blue-500"]
   const iconNames =["HTML","CSS","JS","REACT","TAILWIND", "NODEJS","MONGODB", "NEXTJS","EXPRESS"]
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <section id="techstack" className="scroll-mt-24 border-b border-neutral-800 pb-24">
 
       
       <motion.h2 
@@ -54,7 +54,7 @@ function TechStack() {
           </motion.div>
         ))}
       </motion.div>
-    </div>
+    </section>
   );
 }
 

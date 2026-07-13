@@ -6,7 +6,7 @@ import profileImage from "../assets/profile.jpg";
 
 function About() {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <section id="about" className="scroll-mt-24 border-b border-neutral-900 pb-4">
       <h2 className="my-20 text-center text-4xl">
         <span >About Me</span>
         
@@ -33,7 +33,7 @@ function About() {
             </div>
           </motion.div>
       </div>
-    </div>
+    </section>
   );
 }
 
