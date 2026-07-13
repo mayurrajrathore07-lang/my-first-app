@@ -6,7 +6,7 @@ const Experience = () => {
   const skills = ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React"];
 
   return (
-    <section id="experience" className="scroll-mt-24 py-16">
+    <section id="Experience" className="scroll-mt-24 py-16">
       <div className="mx-auto max-w-6xl">
         <div className="mb-8 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
