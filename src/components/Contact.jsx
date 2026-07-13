@@ -1,71 +1,44 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaAlignJustify } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import "./contact.css";
+
+const socials = [
+  { icon: FaGithub, label: "GitHub", url: "https://github.com/yourusername" },
+  { icon: FaLinkedin, label: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
+  { icon: FaInstagram, label: "Instagram", url: "https://instagram.com/yourusername" },
+  { icon: FaTwitter, label: "Twitter", url: "https://twitter.com/yourusername" },
+];
 
 const Contact = () => {
-  const iconStyle = {
-    fontSize: "50px",
-    color: "skyblue",
-    transition: "0.3s",
-    
-
-
-  };
-
   return (
-    <section id="contact" className="py-16">
-      <h2 className="mb-4 text-2xl font-bold text-white" margin-bootom-20px>Contact</h2>
+    <section id="contact" className="contact-section">
+      <div className="contact-card">
+        <p className="contact-eyebrow">Let&apos;s connect</p>
+        <h2>Contact</h2>
 
-      <p className="text-neutral-300 mb-6">
-        You can reach me through email or LinkedIn.
-      </p>
+        <p className="contact-text">
+          I&apos;m always open to new ideas, collaborations, and exciting projects.
+        </p>
 
-      <ul
-        style={{
-          display: "flex",
-          gap: "40px",
-          listStyle: "none",
-          padding: 0,
-          margin: 0,
-          alignItems:"center",
-          justifyContent:"center"
-        }}
-      >
+        <a href="mailto:hello@yourname.com" className="contact-email">
+          hello@yourname.com
+        </a>
 
-
-        <li>
-          <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub style={iconStyle} />
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="https://linkedin.com/in/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin style={iconStyle} />
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="https://instagram.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram style={iconStyle} />
-          </a>
-        </li>
-
-        <li> <a
-            href="https://twitter.com/yourusername"  target="_blank"  rel="noopener noreferrer" >
-            <FaTwitter style={iconStyle} />
-          </a> </li>
-      </ul>
+        <ul className="social-list">
+          {socials.map(({ icon: Icon, label, url }) => (
+            <li key={label}>
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+                aria-label={label}
+              >
+                <Icon />
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 };

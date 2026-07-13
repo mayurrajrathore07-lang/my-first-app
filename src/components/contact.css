@@ -1,4 +1,87 @@
-#contact>h2{
-    padding-top: 100px;
-    margin-bottom: 10px;
+.contact-section {
+    padding: 5rem 1rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-card {
+    width: min(100%, 720px);
+    text-align: center;
+    padding: 2.25rem;
+    border-radius: 24px;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.95));
+    border: 1px solid rgba(125, 211, 252, 0.25);
+    box-shadow: 0 20px 45px rgba(2, 6, 23, 0.35);
+}
+
+.contact-eyebrow {
+    margin: 0 0 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #7dd3fc;
+}
+
+.contact-card h2 {
+    margin: 0 0 0.75rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.contact-text {
+    margin: 0 auto 1.5rem;
+    max-width: 560px;
+    line-height: 1.7;
+    color: #d1d5db;
+}
+
+.contact-email {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.8rem 1.25rem;
+    border-radius: 999px;
+    background: rgba(125, 211, 252, 0.12);
+    color: #e0f2fe;
+    border: 1px solid rgba(125, 211, 252, 0.35);
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.contact-email:hover {
+    transform: translateY(-2px);
+    background: rgba(125, 211, 252, 0.22);
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-link {
+    width: 3.2rem;
+    height: 3.2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    color: #7dd3fc;
+    transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+    background: #7dd3fc;
+    color: #082f49;
+}
+
+.social-link svg {
+    font-size: 1.25rem;
 }
