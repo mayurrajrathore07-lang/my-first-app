@@ -20,7 +20,7 @@ const Contact = () => {
           I&apos;m always open to new ideas, collaborations, and exciting projects.
         </p>
 
-        <a href="........@gmail.com" className="contact-email">
+        <a href="........@gmail.com " className="contact-email">
          ......@gmail.com
         </a>
 
