@@ -6,7 +6,7 @@ const Experience = () => {
   const skills = ["HTML", "CSS", "JavaScript", "Tailwind CSS", "React"];
 
   return (
-    <section id="Experience" className="scroll-mt-24 py-16">
+    <section id="Experience.jsx" className="scroll-mt-24 py-16">
       <div className="mx-auto max-w-6xl">
         <div className="mb-8 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
@@ -22,7 +22,7 @@ const Experience = () => {
             I enjoy creating responsive, clean, and user-friendly web apps while
             continuously improving my frontend and backend skills.
           </p>
-        </div> 
+        </div>
 
         <div className="mt-8 flex flex-col gap-6 lg:flex-row lg:items-start lg:gap-8">
           <motion.div
