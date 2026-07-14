@@ -147,7 +147,7 @@ const Projects = () => {
               <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Brand based website</p>
               <h3 className="mt-6 text-2xl font-semibold text-white">A responsive coffee brand website</h3>
               <p className="mt-3 text-neutral-300">A polished coffee brand website built with React, Tailwind CSS and Framer Motion with smooth animations and responsive layout.</p>
-
+              
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">Tailwind</span>
