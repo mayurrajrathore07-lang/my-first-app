@@ -37,7 +37,7 @@ const Projects = () => {
               </div>
 
               <div className="mt-6 flex flex-wrap gap-3">
-                <a href="https://mayurrajrathore07-lang.github.io/my-project-1/" target="https://github.com/mayurrajrathore07-lang/my-project-4-amazone-clone.git" rel="noreferrer" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
+                <a href="https://mayurrajrathore07-lang.github.io/my-project-1/" target="_blank" rel="noreferrer" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
                 <a href="https://github.com/mayurrajrathore07-lang/my-project-1.git" target="_blank" rel="noreferrer" className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-800">View Code</a>
               </div>
             </div>
@@ -74,6 +74,7 @@ const Projects = () => {
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">Tailwind</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">Framer Motion</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">Responsive</span>
+
               </div>
 
               <div className="mt-6 flex flex-wrap gap-3">
@@ -108,7 +109,7 @@ const Projects = () => {
               <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">school website</p>
               <h3 className="mt-6 text-2xl font-semibold text-white">A Responsive school website</h3>
               <p className="mt-3 text-neutral-300">A polished school website built with React, Tailwind CSS and Framer Motion with smooth animations and responsive layout.</p>
-
+            
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">html,js</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">css</span>
@@ -190,7 +191,6 @@ const Projects = () => {
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">Tailwind</span>
-              
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">Responsive</span>
               </div>
 
