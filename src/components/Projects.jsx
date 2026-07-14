@@ -195,8 +195,8 @@ const Projects = () => {
               </div>
 
               <div className="mt-6 flex flex-wrap gap-3">
-                <a href="https://mayurrajrathore07-lang.github.io/my-project-4-amazone-clone/" target="https://github.com/mayurrajrathore07-lang/my-first-app.git" rel="noreferrer" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
-                <a href="https://github.com/mayurrajrathore07-lang/my-project-4-amazone-clone.git" target="https://github.com/mayurrajrathore07-lang/my-first-app.git" rel="noreferrer" className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-800">View Code</a>
+                <a href="https://mayurrajrathore07-lang.github.io/my-project-4-amazone-clone/" target="_blank" rel="noreferrer" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
+                <a href="https://github.com/mayurrajrathore07-lang/my-project-4-amazone-clone.git" target="_blank" rel="noreferrer" className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-800">View Code</a>
               </div>
             </div>
           </motion.div>
