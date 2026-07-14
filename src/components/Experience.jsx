@@ -22,7 +22,7 @@ const Experience = () => {
             I enjoy creating responsive, clean, and user-friendly web apps while
             continuously improving my frontend and backend skills.
           </p>
-        </div>
+        </div> 
 
         <div className="mt-8 flex flex-col gap-6 lg:flex-row lg:items-start lg:gap-8">
           <motion.div

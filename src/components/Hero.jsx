@@ -29,6 +29,9 @@ const Hero = () => {
             <a href="#contact" className="text-sm font-medium text-neutral-100/80 transition hover:text-white">
               Let's talk 
             </a>
+
+<a href="#section" classsName=" text-sm"></a>
+
           </div>
         </motion.div>
 
