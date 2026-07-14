@@ -27,7 +27,7 @@ function TechStack() {
   const iconStack = [FaHtml5, FaCss3, IoLogoJavascript, FaReact, SiTailwindcss, FaNodeJs, SiMongodb, SiNextdotjs,SiExpress ];
   const techStackColors=["text-orange-700", "text-cyan-600", "text-yellow-500", "text-cyan-700","text-blue-500"]
   const iconNames =["HTML","CSS","JS","REACT","TAILWIND", "NODEJS","MONGODB", "NEXTJS","EXPRESS"]
-  return (
+  return (                                         
     <section id="Techstack" className="scroll-mt-24 border-b border-neutral-800 pb-24">
 
       
