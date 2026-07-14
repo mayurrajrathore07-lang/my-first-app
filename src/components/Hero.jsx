@@ -15,7 +15,7 @@ const Hero = () => {
           className="flex flex-col justify-center gap-6"
         >
           <p className="text-sm uppercase tracking-[0.3em] text-cyan-300">Hello, I am</p>
-          <h1 className="text-4xl font-bold text-white sm:text-6xl">Mayurraj Singh Rathore</h1>
+          <h1 className="text-4xl font-bold text-white sm:text-6xl">.....................</h1>
           <p className="max-w-2xl text-lg leading-8 text-neutral-300">
             I build modern user interfaces with React, Tailwind CSS, and clean UX. I help brands launch polished products, improve interaction, and make every detail feel alive.
           </p>
