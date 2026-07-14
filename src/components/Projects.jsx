@@ -216,9 +216,6 @@ const Projects = () => {
         </div>
 </div>
 
-
-
-
         <div className="flex flex-col items-stretch gap-6 lg:flex-row lg:items-start">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
