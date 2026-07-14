@@ -192,8 +192,7 @@ const Projects = () => {
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-neutral-200">Tailwind</span>
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">Responsive</span>
-                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-violet-300">html,js,css</span>
-                
+         
               </div>
 
               <div className="mt-6 flex flex-wrap gap-3">
