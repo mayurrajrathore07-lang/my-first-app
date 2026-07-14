@@ -25,8 +25,8 @@ const Projects = () => {
           >
             <div className="px-2 lg:px-6">
               <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Streaming Clone</p>
-              <h3 className="mt-6 text-2xl font-semibold text-white">A Amazon clone </h3>
-              <p className="mt-3 text-neutral-300">A Amazon clone built using HTML/CSS/JS as a learning practice project </p>
+              <h3 className="mt-6 text-2xl font-semibold text-white">learn portfolio web with AI </h3>
+              <p className="mt-3 text-neutral-300">A learn portfolio web with AI using HTML/CSS/JS as a learning practice project </p>
 
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
@@ -37,8 +37,8 @@ const Projects = () => {
               </div>
 
               <div className="mt-6 flex flex-wrap gap-3">
-                <a href="https://github.com/mayurrajrathore07-lang/my-project-4-amazone-clone.git" target="https://github.com/mayurrajrathore07-lang/my-project-4-amazone-clone.git" rel="noreferrer" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
-                <a href="https://github.com/mayurrajrathore07-lang/my-project-4-amazone-clone.git" target="_blank" rel="noreferrer" className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-800">View Code</a>
+                <a href="https://mayurrajrathore07-lang.github.io/my-project-1/" target="https://github.com/mayurrajrathore07-lang/my-project-4-amazone-clone.git" rel="noreferrer" className="rounded-full bg-neutral-700/60 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-700">See Live</a>
+                <a href="https://github.com/mayurrajrathore07-lang/my-project-1.git" target="_blank" rel="noreferrer" className="rounded-full border border-neutral-700 px-4 py-2 text-sm text-neutral-100 hover:bg-neutral-800">View Code</a>
               </div>
             </div>
           </motion.div>
@@ -105,9 +105,9 @@ const Projects = () => {
             className="w-full lg:w-1/2"
           >
             <div className="px-2 lg:px-6">
-              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Personal Portfolio</p>
+              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">school website</p>
               <h3 className="mt-6 text-2xl font-semibold text-white">A Responsive school website</h3>
-              <p className="mt-3 text-neutral-300">A polished portfolio website built with React, Tailwind CSS and Framer Motion with smooth animations and responsive layout.</p>
+              <p className="mt-3 text-neutral-300">A polished school website built with React, Tailwind CSS and Framer Motion with smooth animations and responsive layout.</p>
 
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
@@ -145,9 +145,9 @@ const Projects = () => {
             className="w-full lg:w-1/2"
           >
             <div className="px-2 lg:px-6">
-              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Personal Portfolio</p>
-              <h3 className="mt-6 text-2xl font-semibold text-white">A Responsive school website</h3>
-              <p className="mt-3 text-neutral-300">A polished portfolio website built with React, Tailwind CSS and Framer Motion with smooth animations and responsive layout.</p>
+              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Brand based website</p>
+              <h3 className="mt-6 text-2xl font-semibold text-white">A responsive coffee brand website</h3>
+              <p className="mt-3 text-neutral-300">A polished coffee brand website built with React, Tailwind CSS and Framer Motion with smooth animations and responsive layout.</p>
 
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="rounded-md bg-neutral-800 px-3 py-1 text-sm text-purple-300">React</span>
@@ -185,8 +185,8 @@ const Projects = () => {
             className="w-full lg:w-1/2"
           >
             <div className="px-2 lg:px-6">
-              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">Personal Portfolio</p>
-              <h3 className="mt-6 text-2xl font-semibold text-white">A Responsive school website</h3>
+              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">E-commerce web</p>
+              <h3 className="mt-6 text-2xl font-semibold text-white">A Responsive Amazon Clone website</h3>
               <p className="mt-3 text-neutral-300">A polished portfolio website built with React, Tailwind CSS and Framer Motion with smooth animations and responsive layout.</p>
 
               <div className="mt-4 flex flex-wrap gap-2">
@@ -227,7 +227,7 @@ const Projects = () => {
             className="w-full lg:w-1/2"
           >
             <div className="px-2 lg:px-6">
-              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">E-commerce UI</p>
+              <p className="inline-block rounded-full border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm text-neutral-300">service based website</p>
               <h3 className="mt-6 text-2xl font-semibold text-white">a nexora website based on software services</h3>
               <p className="mt-3 text-neutral-300">a nexora is a software service based platform which provide different type of services like web development. design ,etc</p>
 
