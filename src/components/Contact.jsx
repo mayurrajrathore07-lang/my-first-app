@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="contact-card">
         <p className="contact-eyebrow">Let's connect</p>
         <h2>Contact</h2>
-        <p>Here It Is</p>
+        <p>Here It Is</p> 
         
         <p className="contact-text">
           I'm always open to new ideas, collaborations, and exciting projects.
