@@ -1,3 +1,6 @@
+import Contact from "./Contact";
+
+
 const ResumePage = () => {
   return (
     <div className="min-h-screen px-6 py-20 text-neutral-200">
@@ -28,8 +31,12 @@ const ResumePage = () => {
           </div>
         </div>
       </div>
+      <><Contact/></>
     </div>
-  );
+ );
 };
+
+
+  
 
 export default ResumePage;
