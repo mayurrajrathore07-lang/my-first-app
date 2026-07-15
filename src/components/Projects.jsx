@@ -8,6 +8,7 @@ import image44 from "../assets/image44.png";
 import imaget1 from "../assets/imaget1.png";
 
 
+
 const Projects = () => {
   return (
     <section id="projects" className="py-16">
